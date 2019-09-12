@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-apple
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 54.223.16.171:8848
+        namespace: 8e135e43-4e66-462b-9039-300f6f8f55c2
+      config:
+        server-addr: 54.223.16.171:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8900

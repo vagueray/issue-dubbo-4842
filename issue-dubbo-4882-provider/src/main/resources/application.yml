@@ -1,0 +1,10 @@
+server:
+  port: 8100
+  tomcat:
+    basedir: /data/applogs/${spring.application.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
